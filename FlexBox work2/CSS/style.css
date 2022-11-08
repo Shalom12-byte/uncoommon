@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url(../Images/hero-sec.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+   
+    
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    
+    
+    
+    
+    
+    
+}
+
+.menu{
+    width: 90px;
+    height: 40px;
+    
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 90%;
+
+    
+    
+}
+
+.menu1{
+    width: 20px;
+    height: 10%;
+    background-color: rgb(251, 250, 251);
+    
+    
+   
+
+}
+.menu2{
+    width: 20px;
+    height: 10%;
+    background-color: rgb(247, 250, 248);
+    
+    
+    
+}
+.menu3{
+  
+    width: 20px;
+    height: 10%;
+    background-color: rgb(246, 247, 247);
+
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    
+    
+   
+    
+}
+.button{
+    height: 10px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 128, 163);
+    border-radius: none;
+    color: antiquewhite;
+    
+   font-size: medium;
+   margin-top: 40px;
+   
+}
+
+/*
+.button1{
+    width: 150px;
+    height: 40px;
+    border: 1px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(0, 128, 163);
+    border-radius: 4px;
+    font-size: 14px;
+}*/
+/*
+.header-content h2{
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 500px;
+}
+/*
+.ptext{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-style: italic;
+    margin-left: 500px;
+}*/
+/*.button{
+    padding: 20px 30px;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(52, 52, 55);
+    border-radius: none;
+    color: antiquewhite;
+    
+}*/
+.title{
+    text-align: center;
+    font-size: 20px;
+   padding: 100px 70px;
+}
+.ptext2{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: px 1px;
+    
+    
+}
+.btn{
+    padding: 20px 30px;
+    top: 50px;
+    position: relative;
+    background: rgb(52, 52, 55);
+    border-radius: none;
+    color: antiquewhite;
+}
+.Services-section{
+    width: 100%;
+    height: 90vh;
+    color: rgb(11, 10, 10);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: rgb(0, 128, 163);
+    
+}
+.Services-section h3{
+    font-size: 10px;
+    margin-top: 0px;
+    font-style: italic;
+    flex-direction: column;
+    display: flex;
+    color: orange;
+    top: 2000px;
+    
+    
+    
+    
+}
+.ptext{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: antiquewhite;
+    /*
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 100px;*/
+    
+}
+.welcome{
+    background-image: url(../Images/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomee{
+    font-size: medium;
+    color: rgb(38, 35, 35);
+    font-style: italic;
+    font-size: 50px;
+
+}
+.dwn{
+    height: 20px;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 128, 163);
+    border-radius: none;
+    color: antiquewhite;
+   left: 1000px;
+   font-size: medium;
+   margin-top: 60px;
+   
+}
+.portfolio-section{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+.port{
+    color: orange;
+    margin-top: 50px;
+}
+.portt{
+    font-size: 30px;
+    color: rgb(65, 64, 64);
+}
+.pic1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/portfolio-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.stationary{
+    font-weight: lighter;
+    color: antiquewhite;
+    font-size: 10px;
+}
+.pencil{
+    font-weight: lighter;
+    color: antiquewhite;
+    font-size: 12px;
+
+}
+.pic2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic3{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/joanna-kosinska-BteMcldTQVo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic4{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-self: center;
+    justify-content: center;
+
+    
+}
+.button-section{
+    width: 100%;
+    height: 50vh;
+    color: rgb(11, 10, 10);
+    background-color:rgb(0, 128, 163);
+    text-align: center; 
+}
+.button-section h2{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 60px;
+    padding: 50px 70px;
+    
+
+    
+}
+
+.clickme{
+    padding: 20px 30px;
+    top: 50px;
+    align-self: center;
+    background: rgb(52, 52, 55);
+    border-radius: none;
+    color: antiquewhite;
+    
+}
+.lookatme{
+    padding: 20px 30px;
+    top: 50px;
+   align-self: center;
+    background: rgb(246, 246, 247);
+    border-radius: none;
+    color: rgb(3, 3, 3);
+    
+}
+.map{
+    background-image: url(../map.png);
+    width: 100%;
+    height: 80vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.copyright{
+    
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
